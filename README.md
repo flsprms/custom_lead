@@ -6,6 +6,9 @@
     - *при создании лида*
     - *смене работника у лида*
     - *смене адреса лида*
+ 
+![image](https://github.com/flsprms/custom_lead/assets/149524130/108c5b6e-15b0-4f4e-930d-425fe6d525d6)
+
 
 # Telegram bot
 
@@ -13,6 +16,12 @@
 - Получить свой telegram ID
 - Получить сообщение о новом лиде / смене адреса у лида
 - Отправить сообщение в __chatter__ лида
+
+![image](https://github.com/flsprms/custom_lead/assets/149524130/ec0e0748-28e2-4aab-9656-673f24c3b0ae)  
+
+![image](https://github.com/flsprms/custom_lead/assets/149524130/f7ef9e94-6cda-4771-93f3-baec3e69cb6c)
+
+
 
 # Конфигурация
 
@@ -55,3 +64,5 @@ __Пример__:
 При запуске бота (файл *bot/main.py*) также нужно передать файл конфигурации  
 __Пример__:  
 `C:\Users\...\conf\odoo.conf ...`
+
+#
