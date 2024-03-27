@@ -24,7 +24,10 @@
     - Установить обработку для открытия папок интерфейсу Odata (__1c/СервисДляПолученияДанныхСотрудников.cfe__)
      ![image](https://github.com/flsprms/custom_lead/assets/149524130/de79282b-7304-4403-932c-17902d4386e7)  
       Файл -> Открыть -> Выбрать (__1c/odata.epf__) -> Выбрать все -> Сохранить
-    ![image](https://github.com/flsprms/custom_lead/assets/149524130/f2b8c4c8-f11c-4716-807a-cbe682ff41a2)
+    ![image](https://github.com/flsprms/custom_lead/assets/149524130/f2b8c4c8-f11c-4716-807a-cbe682ff41a2)  
+    - Опубликовать ИБ на веб-сервере  
+      ![image](https://github.com/flsprms/custom_lead/assets/149524130/2f12e999-ebcd-45d2-9229-edb96003228b)
+
 
 ## Конфигурация
 
