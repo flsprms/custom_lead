@@ -1,0 +1,30 @@
+<odoo>
+    <record id="view_employee_1c_import_wizard" model="ir.ui.view">
+        <field name="name">employee.1c.import.wizard.form</field>
+        <field name="model">employee.1c.import.wizard</field>
+        <field name="arch" type="xml">
+            <form string="Import Employee from 1C">
+                <group col="2">
+                    <field name="is_employee_number"/>
+                    <field name="employee_number" invisible="is_employee_number == False"/>
+                </group>
+                <group>
+                    <field name="is_employee_name"/>
+                    <field name="employee_name" invisible="is_employee_name == False"/>
+                </group>
+                <footer>
+                    <button string="Import" type="object" name="btn_import_from_1c" class="btn-primary"/>
+                    <button string="Cancel" class="btn-secondary" special="cancel"/>
+                </footer>
+            </form>
+        </field>
+    </record>
+
+    <record id="action_employee_1c_import_wizard" model="ir.actions.act_window">
+        <field name="name">Import from 1с</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">employee.1c.import.wizard</field>
+        <field name="view_mode">form</field>
+        <field name="target">new</field>
+    </record>
+</odoo>
